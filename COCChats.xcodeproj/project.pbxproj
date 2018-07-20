@@ -13,6 +13,10 @@
 		E48AB35F21024B8C00AB4F1F /* COCChats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48AB35D21024B8C00AB4F1F /* COCChats.xcdatamodeld */; };
 		E48AB36121024B8D00AB4F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48AB36021024B8D00AB4F1F /* Assets.xcassets */; };
 		E48AB36421024B8D00AB4F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48AB36221024B8D00AB4F1F /* LaunchScreen.storyboard */; };
+		E48AB36E2102547000AB4F1F /* ClanSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AB36C2102547000AB4F1F /* ClanSearchCell.swift */; };
+		E48AB36F2102547000AB4F1F /* ClanSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48AB36D2102547000AB4F1F /* ClanSearchCell.xib */; };
+		E48AB3722102556F00AB4F1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AB3712102556F00AB4F1F /* Constants.swift */; };
+		E48AB37521025A5000AB4F1F /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48AB37421025A5000AB4F1F /* ServerRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E48AB36021024B8D00AB4F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48AB36321024B8D00AB4F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48AB36521024B8D00AB4F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48AB36C2102547000AB4F1F /* ClanSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanSearchCell.swift; sourceTree = "<group>"; };
+		E48AB36D2102547000AB4F1F /* ClanSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClanSearchCell.xib; sourceTree = "<group>"; };
+		E48AB3712102556F00AB4F1F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E48AB37421025A5000AB4F1F /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		E48AB35521024B8C00AB4F1F /* COCChats */ = {
 			isa = PBXGroup;
 			children = (
+				E48AB37321025A3C00AB4F1F /* ServerRequest */,
+				E48AB3702102556100AB4F1F /* Constants */,
+				E48AB36B210253F400AB4F1F /* Cells */,
 				E48AB35621024B8C00AB4F1F /* AppDelegate.swift */,
 				E48AB35821024B8C00AB4F1F /* ViewController.swift */,
 				E48AB35A21024B8C00AB4F1F /* Main.storyboard */,
@@ -65,6 +76,31 @@
 				E48AB35D21024B8C00AB4F1F /* COCChats.xcdatamodeld */,
 			);
 			path = COCChats;
+			sourceTree = "<group>";
+		};
+		E48AB36B210253F400AB4F1F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E48AB36C2102547000AB4F1F /* ClanSearchCell.swift */,
+				E48AB36D2102547000AB4F1F /* ClanSearchCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E48AB3702102556100AB4F1F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E48AB3712102556F00AB4F1F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E48AB37321025A3C00AB4F1F /* ServerRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E48AB37421025A5000AB4F1F /* ServerRequest.swift */,
+			);
+			path = ServerRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +164,7 @@
 				E48AB36421024B8D00AB4F1F /* LaunchScreen.storyboard in Resources */,
 				E48AB36121024B8D00AB4F1F /* Assets.xcassets in Resources */,
 				E48AB35C21024B8C00AB4F1F /* Main.storyboard in Resources */,
+				E48AB36F2102547000AB4F1F /* ClanSearchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48AB37521025A5000AB4F1F /* ServerRequest.swift in Sources */,
+				E48AB3722102556F00AB4F1F /* Constants.swift in Sources */,
 				E48AB35921024B8C00AB4F1F /* ViewController.swift in Sources */,
 				E48AB35721024B8C00AB4F1F /* AppDelegate.swift in Sources */,
 				E48AB35F21024B8C00AB4F1F /* COCChats.xcdatamodeld in Sources */,
+				E48AB36E2102547000AB4F1F /* ClanSearchCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
